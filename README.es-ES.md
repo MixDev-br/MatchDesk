@@ -1,251 +1,55 @@
-# eFootball Toolkit PRO
+# MatchDesk
 
-<p align="center">
-  <strong>Monitoreo de partidos, overlay y herramientas de red para eFootball en Windows y consolas.</strong>
-</p>
+Monitorización de conexión, overlay e información de partidos de eFootball para Windows y Android.
 
-<p align="center">
-  <a href="README.md"><img src="docs/images/language-pt-br.svg" alt="Português (Brasil)" height="42"></a>
-  <a href="README.en-US.md"><img src="docs/images/language-en-us.svg" alt="English (US)" height="42"></a>
-  <a href="README.es-ES.md"><img src="docs/images/language-es-es.svg" alt="Español (España)" height="42"></a>
-</p>
+[Português](README.md) · [English](README.en-US.md) · [Español](README.es-ES.md)
 
-<p align="center">
-  <a href="https://mixdev-br.github.io/eFootballToolkitPRO/?lang=es"><strong>Sitio oficial</strong></a>
-  ·
-  <a href="https://github.com/MixDev-br/eFootballToolkitPRO/releases/latest"><strong>Descargar versión PRO</strong></a>
-  ·
-  <a href="https://github.com/MixDev-br/eFootballToolkitPRO/releases/tag/trial-v2.3.1"><strong>Probar en Windows durante 5 días</strong></a>
-  ·
-  <a href="OPENWRT_MOBILE_GUIDE.md"><strong>Guía Mobile y OpenWrt (portugués)</strong></a>
-</p>
+[Sitio oficial](https://mixdev-br.github.io/MatchDesk/) · [Descargas](DOWNLOADS.md#español) · [Soporte](SUPPORT.md#español)
 
-<p align="center">
-  <img alt="Versión 2.3.7" src="https://img.shields.io/badge/versión-2.3.7-22d3ee">
-  <img alt="Windows 10 y 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-2563eb">
-  <img alt="Compatible con Steam y Xbox PC" src="https://img.shields.io/badge/eFootball-Steam%20%7C%20Xbox%20PC-10b981">
-  <img alt="Idiomas disponibles" src="https://img.shields.io/badge/idiomas-PT%20%7C%20EN%20%7C%20ES-a855f7">
-</p>
+## Estamos preparando algo nuevo
 
-> Este es el canal oficial de distribución de eFootball Toolkit PRO. El repositorio contiene los paquetes listos para usar, el manifiesto de actualización y la documentación pública.
+MatchDesk está adoptando su nueva identidad. Las nuevas versiones de las aplicaciones siguen en preparación. El sitio completo se publicará junto con las aplicaciones actualizadas; hasta entonces, la dirección oficial muestra un avance.
 
-## Descripción general
+**Todavía no hay paquetes MatchDesk disponibles en este repositorio.** Las publicaciones y descargas de las marcas anteriores se han retirado. Consulta [Descargas y disponibilidad](DOWNLOADS.md#español) para conocer el estado de la distribución oficial.
 
-El Toolkit reúne información que normalmente está dispersa u oculta durante la búsqueda de partidos:
+## Aplicaciones
 
-- ping, región, distancia y endpoint de la sesión en tiempo real;
-- identificación de partidos P2P y partidos alojados en servidor;
-- overlay compacto sobre el juego;
-- central de servidores con mediciones por país;
-- modos y reglas temporales de firewall;
-- historial de partidos, adversarios y reencuentros;
-- diagnóstico de controles Xbox y PlayStation;
-- compatibilidad con eFootball de **Steam** y **Xbox PC**;
-- monitoreo de PC, PlayStation y Xbox mediante **OpenWrt**;
-- aplicación Mobile para seguir los partidos y controlar los modos X1 y COOP.
+| Aplicación | Plataforma | Finalidad |
+| --- | --- | --- |
+| **MatchDesk Pro** | Windows 10/11, 64 bits | Monitor de conexión, overlay, central de servidores, regiones e historial de partidos. |
+| **MatchDesk Scout** | Windows 10/11, 64 bits | Información disponible del rival y del partido, como aplicación independiente o integrada en Pro. |
+| **MatchDesk Mobile** | Android con router OpenWrt compatible | Monitorización de un PC, PlayStation o Xbox en la red local, usando el móvil como panel. |
+| **MatchDesk Trial** | Windows 10/11, 64 bits | Edición de evaluación de la aplicación principal. La disponibilidad y las condiciones se anunciarán con su publicación. |
 
-## Conoce la aplicación
+En PC se contempla eFootball para Steam y Xbox PC. Consulta las notas de cada versión para comprobar funciones, requisitos y compatibilidad. Scout funciona exclusivamente en Windows; la monitorización de consolas requiere Mobile y un router compatible.
 
-### Monitor del partido
+## Antes de instalar
 
-![Pantalla principal del monitor](docs/images/01-monitor-principal.png)
+- La captura directa de red en Windows con Pro utiliza [Npcap](https://npcap.com/#download), instalado desde su fuente oficial. Scout no necesita Npcap.
+- Mobile requiere un router con OpenWrt. El firmware original del fabricante no es suficiente. Consulta la [guía de configuración en portugués](OPENWRT_MOBILE_GUIDE.md).
+- Las ediciones comerciales requieren la licencia correspondiente. La licencia de una aplicación no concede automáticamente acceso a las demás.
+- Sigue las instrucciones del paquete publicado y extrae todo el contenido de los archivos ZIP.
 
-La pantalla principal concentra el estado de la captura y la información de la sesión. Cuando se encuentra un partido, el panel muestra:
+La aplicación muestra los datos que facilitan la sesión y la plataforma. Las mediciones de latencia, las estimaciones de ubicación y la identificación de rivales tienen limitaciones; seleccionar una región no garantiza un resultado del matchmaking.
 
-- **tipo de conexión**, como P2P o servidor;
-- **destino y protocolo** utilizados por el partido;
-- **ping**, región identificada y distancia aproximada;
-- eventos importantes en el panel **Actividad**;
-- detalles de conexión, servidor y adversario en los campos **IP1, IP2 e IP3**;
-- accesos directos para iniciar eFootball, controlar el monitor, cambiar el modo de juego y abrir la central de adversarios.
+## Descargas y actualizaciones
 
-### Firewall y modos de juego
+Las nuevas versiones se publicarán mediante los canales oficiales de [DOWNLOADS.md](DOWNLOADS.md#español), con versión, plataforma, notas e información de integridad. No utilices copias de terceros ni archivos renombrados para aparentar una nueva versión.
 
-![Pantalla de firewall](docs/images/02-firewall.png)
+Durante la transición, el manifiesto de actualización de las versiones retiradas deja de publicarse. La ausencia de un manifiesto no significa que haya una nueva versión disponible.
 
-El área de Firewall controla dónde se aplicarán las reglas temporales del modo elegido:
+## Ayuda y seguridad
 
-- **Solo eFootball:** limita los filtros al ejecutable del juego;
-- **Sistema completo:** aplica el modo a todo el equipo y se recomienda para la edición Xbox PC;
-- **Sin reglas:** mantiene el monitor activo sin solicitar filtros del Toolkit.
+- [Soporte y diagnóstico](SUPPORT.md#español)
+- [Guía de Mobile y OpenWrt en portugués](OPENWRT_MOBILE_GUIDE.md)
+- [Comunicar un problema](https://github.com/MixDev-br/MatchDesk/issues/new/choose)
+- [Comunicar una vulnerabilidad en privado](SECURITY.md)
+- [Historial público](CHANGELOG.md)
 
-El panel también informa el alcance elegido, la plataforma detectada, el modo activo y la cantidad de filtros aplicados. Las protecciones son temporales y desaparecen cuando finaliza la sesión de la aplicación.
+No publiques claves de licencia, contraseñas, tokens, códigos completos de dispositivo ni capturas con datos personales. Los canales de soporte existentes siguen disponibles durante la transición.
 
-<details>
-<summary><strong>Editor de reglas personalizadas</strong></summary>
+## Sobre este repositorio
 
-![Editor de reglas de firewall](docs/images/03-editor-regras.png)
+Este es el repositorio público de documentación y distribución de MatchDesk, mantenido por MixDev. El código fuente de las aplicaciones es propietario y no se publica aquí. El uso de las aplicaciones se rige por los términos incluidos con cada producto; el acceso público a este repositorio no concede una licencia de código abierto.
 
-El editor permite crear, revisar y restaurar reglas personalizadas. En esta pantalla solo aparecen reglas creadas por el usuario o encontradas en Windows; las definiciones internas del Toolkit permanecen protegidas.
-
-</details>
-
-<details>
-<summary><strong>Vincular reglas existentes de Windows</strong></summary>
-
-![Ventana para vincular reglas de Windows](docs/images/04-vincular-regras.png)
-
-Esta ventana permite aprovechar en las funciones del Toolkit definiciones que ya existen en el Firewall de Windows. El nombre, la dirección, el protocolo, las direcciones y los puertos se importan sin activar, desactivar ni modificar la regla original.
-
-</details>
-
-### Central de servidores
-
-![Central de servidores](docs/images/05-central-servidores.png)
-
-La central organiza los servidores conocidos en una lista compacta con país, dirección, estado del filtro y resultado de la medición. Desde ella es posible:
-
-- probar todos los destinos o elegir un país específico;
-- buscar por IP, medición o estado;
-- añadir una dirección IPv4 o IPv6 pública;
-- bloquear, permitir, editar o probar un solo servidor;
-- consultar cuántos destinos están permitidos, bloqueados y disponibles.
-
-Los resultados mostrados son mediciones reales. Cuando un destino no responde, el Toolkit mantiene el estado como no probado o sin respuesta en lugar de inventar un valor de ping.
-
-<details>
-<summary><strong>Selección regional</strong></summary>
-
-![Selección de países y servidores](docs/images/06-selecao-regional.png)
-
-El selector regional ayuda a priorizar países durante la búsqueda de partidos. El usuario elige los destinos preferidos mientras el Toolkit trata temporalmente los demás destinos durante la búsqueda. Las nuevas direcciones IP públicas observadas pueden verificarse y catalogarse localmente.
-
-Esta función ayuda con la selección, pero no garantiza que el partido se organice en una región específica.
-
-</details>
-
-### Red y overlay
-
-![Personalización de red y overlay](docs/images/07-rede-overlay.png)
-
-En esta pantalla el usuario elige el adaptador de red utilizado para la captura y personaliza el panel flotante:
-
-- formato de una o dos líneas;
-- nivel de opacidad;
-- bloques de información visibles;
-- estado, modo, distancia, ping y pérdida;
-- FPS, polling del control, reencuentros, endpoint, región y hora;
-- vista previa instantánea antes de volver al juego.
-
-#### Overlay durante el juego
-
-![Overlay de eFootball Toolkit](docs/images/11-overlay-em-jogo.png)
-
-El overlay mantiene visibles los datos esenciales sin ocupar la pantalla principal. Sigue el partido en tiempo real y puede mostrar únicamente los campos elegidos por el usuario. Cuando la sesión permite marcar a un adversario, el botón **Marcar IP** aparece a la derecha.
-
-### Central de adversarios y partidos
-
-![Central de bloqueados y partidos](docs/images/08-central-adversarios.png)
-
-La central separa la información en tres listas:
-
-- **Bloqueados ahora:** filtros activos en la sesión actual;
-- **Reencuentros:** adversarios marcados para una identificación futura;
-- **Partidos:** historial de las sesiones protegidas.
-
-Las columnas reúnen nombre, direcciones IP observadas, región, fecha, ping y distancia cuando estos datos están disponibles. El bloqueo automático es una protección auxiliar: los cambios de IP, las conexiones compartidas o las decisiones de la propia infraestructura del juego pueden impedir la cancelación automática de un partido.
-
-### Probador de controles
-
-![Probador de control Xbox](docs/images/09-testador-controle.png)
-
-La herramienta de diagnóstico reconoce controles compatibles y presenta una representación visual adecuada para Xbox o PlayStation. Los botones, gatillos y sticks analógicos reaccionan a las entradas en tiempo real.
-
-Cuando el dispositivo ofrece la información necesaria, la pantalla también muestra:
-
-- tipo de conexión;
-- estado de la batería;
-- compatibilidad con vibración;
-- tasa de polling e intervalo medio;
-- comportamiento de los sticks analógicos y entradas pulsadas.
-
-### Configuración
-
-![Configuración de la aplicación](docs/images/10-configuracoes-redigida.png)
-
-Las preferencias se reúnen en una sola pantalla y se restauran en la siguiente apertura del Toolkit. Entre las opciones se encuentran:
-
-- portugués, inglés y español;
-- alerta sonora al encontrar un partido;
-- inicio automático del monitor;
-- apertura automática del overlay;
-- avisos sobre modos y Xbox PC;
-- restauración de las reglas de la aplicación;
-- acceso directo al soporte.
-
-El código del dispositivo se ocultó en la captura pública por seguridad.
-
-## Trial y PRO
-
-| Función | Trial | PRO |
-|---|:---:|:---:|
-| Duración | 5 días | Según el plan |
-| Monitor de partidos | Completo | Completo |
-| Overlay | 1 línea esencial | Personalizable |
-| Modos de juego | X1 | X1, COOP y personalizados |
-| Central de servidores | — | Completa |
-| Historial y adversarios | — | Completo |
-| Herramientas de firewall | Limitadas | Completas |
-| Clave o tarjeta para probar | No | — |
-
-## Descargas
-
-### EFT MATCH 0.2.8
-
-[Descargar EFT MATCH 0.2.8 con licencia](https://mixdev-br.github.io/eFootballToolkitPRO/eft-match/#download) · [Guía en inglés](docs/eft-match/README.txt) · [Sitio y tutorial](https://mixdev-br.github.io/eFootballToolkitPRO/eft-match/)
-
-Ve al rival antes de confirmar el partido. Con Toolkit PRO abierto, la aplicación explica cómo activar la extensión y usar ambos juntos.
-
-Requiere Windows 10/11 de 64 bits, Steam o Xbox PC, internet durante el uso y una licencia EFTM propia. No requiere Npcap. Extrae la carpeta completa y ejecuta EFT_MATCH.exe como administrador.
-
-### Toolkit
-
-- [Descargar eFootball Toolkit PRO 2.3.7](https://github.com/MixDev-br/eFootballToolkitPRO/releases/download/v2.3.7/eFootball-Toolkit-PRO-v2.3.7.zip)
-- [Descargar eFootball Toolkit TRIAL 2.3.1](https://github.com/MixDev-br/eFootballToolkitPRO/releases/download/trial-v2.3.1/eFootball-Toolkit-TRIAL-v2.3.1.zip)
-- [Descargar eFootball Toolkit Mobile 2.3.4 — build 18](https://github.com/MixDev-br/eFootballToolkitPRO/releases/download/mobile-v2.3.4/eFootball-Toolkit-Mobile-v2.3.4-b18.apk)
-- [Configurar Mobile y OpenWrt (guía en portugués)](OPENWRT_MOBILE_GUIDE.md)
-- [Consultar todas las versiones](https://github.com/MixDev-br/eFootballToolkitPRO/releases)
-
-Cada versión incluye el paquete `.zip`, un archivo `.sha256` para verificar su integridad y las notas de actualización.
-
-## Requisitos
-
-- Windows 10 o Windows 11;
-- eFootball para Steam o Xbox PC;
-- privilegios de administrador para los filtros temporales;
-- [Npcap](https://npcap.com/#download) instalado.
-
-**Npcap** es el componente utilizado para observar el tráfico de red local necesario para las mediciones del monitor. Descárgalo únicamente desde el sitio oficial.
-
-## Instalación
-
-1. Instala el [Npcap oficial](https://npcap.com/#download).
-2. Descarga la edición PRO o Trial desde Releases.
-3. Extrae **todo el contenido** del archivo ZIP.
-4. Mantén el ejecutable junto a la carpeta `runtime`.
-5. Ejecuta `eFootballToolkitPRO.exe`.
-
-No muevas ni ejecutes el archivo `.exe` de forma aislada.
-
-## Actualizaciones e integridad
-
-La aplicación consulta el manifiesto firmado `update_manifest.json` de este repositorio. Los paquetes se descargan exclusivamente desde Releases y solo se aceptan después de validar la firma, el tamaño y el hash SHA-256.
-
-Para comprobar manualmente una descarga en PowerShell:
-
-```powershell
-Get-FileHash -Algorithm SHA256 .\eFootball-Toolkit-PRO-v2.3.1.zip
-```
-
-Compara el resultado con el archivo `.sha256.txt` publicado en la misma Release.
-
-## Soporte
-
-- Sitio: [mixdev-br.github.io/eFootballToolkitPRO](https://mixdev-br.github.io/eFootballToolkitPRO/?lang=es#suporte)
-- Correo electrónico: [efootballtoolkitpro.suporte@gmail.com](mailto:efootballtoolkitpro.suporte@gmail.com)
-
-Al solicitar ayuda, indica la versión del Toolkit, si utilizas Steam o Xbox PC y describe el comportamiento observado.
-
----
-
-eFootball Toolkit PRO es un proyecto independiente y no está afiliado a KONAMI.
+MatchDesk es un proyecto independiente, sin afiliación, patrocinio ni aprobación de KONAMI. eFootball y las demás marcas citadas pertenecen a sus respectivos titulares.

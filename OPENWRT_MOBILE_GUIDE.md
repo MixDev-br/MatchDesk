@@ -1,14 +1,17 @@
-# eFootball Toolkit Mobile com OpenWrt
+# MatchDesk Mobile com OpenWrt
+
+
+> **Disponibilidade:** as novas builds MatchDesk ainda estão em preparação. Este guia descreve os requisitos e a configuração; consulte [Downloads](DOWNLOADS.md) antes de instalar.
 
 Este guia mostra o que você precisa para monitorar partidas do eFootball no PC, PlayStation ou Xbox usando o aplicativo Android e um roteador com OpenWrt.
 
-> O firmware original do fabricante não é suficiente. O roteador precisa estar executando OpenWrt e aparecer como **compatível** no assistente do Toolkit.
+> O firmware original do fabricante não é suficiente. O roteador precisa estar executando OpenWrt e aparecer como **compatível** no assistente do MatchDesk.
 
 ## Antes de começar
 
 Você precisa de:
 
-- um celular Android com o eFootball Toolkit Mobile;
+- um celular Android com o MatchDesk Mobile;
 - um roteador com OpenWrt, acesso por SSH e o pacote `nftables` disponível;
 - PC, PlayStation ou Xbox conectado à rede desse roteador;
 - usuário administrador e senha do OpenWrt somente durante a instalação;
@@ -21,7 +24,7 @@ Não abra portas no roteador e não exponha o painel do OpenWrt à internet. O a
 
 O assistente escolhe automaticamente o agente correto para estas arquiteturas:
 
-| Arquitetura detectada pelo OpenWrt | Agente do Toolkit |
+| Arquitetura detectada pelo OpenWrt | Agente do MatchDesk |
 | --- | --- |
 | MIPS 24Kc big-endian | `mips_24kc` |
 | MIPS 24Kc little-endian | `mipsel_24kc` |
@@ -41,7 +44,7 @@ Para outro modelo, confirme a revisão de hardware exata na [Tabela de Hardware 
 ## Instalação pelo aplicativo
 
 1. Conecte o celular e o aparelho que será monitorado à rede do OpenWrt.
-2. No Toolkit Mobile, abra **OpenWrt** e toque em **Configurar roteador**.
+2. No MatchDesk Mobile, abra **OpenWrt** e toque em **Configurar roteador**.
 3. Informe o endereço local do roteador, normalmente `192.168.1.1`, o usuário `root` e a senha administrativa.
 4. Confira a identidade e a impressão digital SSH mostradas pelo aplicativo.
 5. Aguarde a verificação do modelo, arquitetura, `nftables` e espaço livre.
@@ -49,7 +52,7 @@ Para outro modelo, confirme a revisão de hardware exata na [Tabela de Hardware 
 7. Confirme a instalação e execute o teste de conexão.
 8. Quando aparecer **Roteador conectado**, volte ao monitor e inicie a captura.
 
-O Toolkit envia o agente compatível, cria um token exclusivo e acompanha o aparelho escolhido pelo endereço MAC. A senha administrativa não é salva. Nas conexões seguintes, o aplicativo usa apenas o token local.
+O MatchDesk envia o agente compatível, cria um token exclusivo e acompanha o aparelho escolhido pelo endereço MAC. A senha administrativa não é salva. Nas conexões seguintes, o aplicativo usa apenas o token local.
 
 ## IP fixo do aparelho monitorado
 
@@ -61,7 +64,7 @@ Para evitar que o console ou PC receba outro endereço depois de reiniciar, crie
 4. salve e aplique;
 5. reconecte o aparelho à rede.
 
-O assistente do Toolkit continua usando o MAC como identidade principal e atualiza o IP quando necessário.
+O assistente do MatchDesk continua usando o MAC como identidade principal e atualiza o IP quando necessário.
 
 ## Modos de jogo
 
@@ -93,7 +96,7 @@ Ligue o PC ou console, conecte-o à rede do OpenWrt e atualize a lista. Se neces
 
 ### IPv6 não funciona
 
-Use o diagnóstico IPv6 do Toolkit. Ele verifica WAN, delegação de prefixo e distribuição na LAN antes de oferecer qualquer reparo.
+Use o diagnóstico IPv6 do MatchDesk. Ele verifica WAN, delegação de prefixo e distribuição na LAN antes de oferecer qualquer reparo.
 
 ## Segurança e privacidade
 
@@ -104,4 +107,3 @@ Use o diagnóstico IPv6 do Toolkit. Ele verifica WAN, delegação de prefixo e d
 - reinstalar pelo assistente atualiza o agente quando o aplicativo contém uma versão mais nova.
 
 Suporte: [efootballtoolkitpro.suporte@gmail.com](mailto:efootballtoolkitpro.suporte@gmail.com)
-
