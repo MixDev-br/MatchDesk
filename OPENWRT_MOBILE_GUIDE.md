@@ -1,7 +1,7 @@
 # MatchDesk Mobile com OpenWrt
 
 
-> **Disponibilidade:** as novas builds MatchDesk ainda estão em preparação. Este guia descreve os requisitos e a configuração; consulte [Downloads](DOWNLOADS.md) antes de instalar.
+> **MatchDesk Mobile 3.0** · [Baixar o aplicativo](DOWNLOADS.md#português) · [Guia rápido](docs/MOBILE.md#português) · [Suporte](SUPPORT.md#português)
 
 Este guia mostra o que você precisa para monitorar partidas do eFootball no PC, PlayStation ou Xbox usando o aplicativo Android e um roteador com OpenWrt.
 
@@ -69,7 +69,7 @@ O assistente do MatchDesk continua usando o MAC como identidade principal e atua
 ## Modos de jogo
 
 - **X1:** aplica o conjunto revisado para reduzir tentativas em faixas de servidor e preservar sessões diretas compatíveis.
-- **COOP:** usa o conjunto próprio para partidas cooperativas e servidores dedicados.
+- **SELETOR DE REGIÃO:** escolha os países permitidos para partidas por servidor, incluindo Coop. Confira a seleção e o estado das regras no app.
 
 As regras ficam restritas ao aparelho escolhido. Se o aplicativo perder contato com o roteador, o agente remove os filtros temporários automaticamente.
 

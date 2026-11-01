@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+ <title id="title">MatchDesk 3.0</title><desc id="desc">Pro, Scout and Mobile. Cyan, orange and green on a dark background.</desc>
+ <defs><linearGradient id="surface" x2="1" y2="1"><stop stop-color="#0d1d2a"/><stop offset="1" stop-color="#090e17"/></linearGradient><linearGradient id="edge"><stop stop-color="#18d5ed"/><stop offset=".5" stop-color="#ffb65e"/><stop offset="1" stop-color="#33de9a"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 H 0 V 40" fill="none" stroke="#b0c6dc" stroke-opacity=".035"/></pattern></defs>
+ <rect width="1200" height="300" rx="24" fill="url(#surface)"/>
+ <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+ <path d="M26 2H1174" stroke="url(#edge)" stroke-width="4"/>
+ <g font-family="Segoe UI,Arial,sans-serif">
+  <text x="58" y="100" fill="#9dadbf" font-weight="700" font-size="17" letter-spacing="5">PRO · SCOUT · MOBILE</text>
+  <text x="54" y="183" fill="#f0f6fc" font-weight="900" font-size="76" letter-spacing="-2">MATCHDESK</text>
+  <rect x="59" y="222" width="66" height="5" rx="2.5" fill="#18d5ed"/><rect x="137" y="222" width="66" height="5" rx="2.5" fill="#ffb65e"/><rect x="215" y="222" width="66" height="5" rx="2.5" fill="#33de9a"/>
+  <path d="M680 220H728L750 187L777 237L810 155L842 202H899" stroke="#18d5ed" stroke-opacity=".42" stroke-width="3" fill="none" stroke-linejoin="round"/>
+  <rect x="925" y="48" width="224" height="204" rx="22" fill="#111c2a" stroke="#34495e"/>
+  <text x="1037" y="178" text-anchor="middle" fill="#f0f6fc" font-weight="800" font-size="92" letter-spacing="-6">3.0</text>
+  <circle cx="986" cy="215" r="4" fill="#18d5ed"/><circle cx="1038" cy="215" r="4" fill="#ffb65e"/><circle cx="1090" cy="215" r="4" fill="#33de9a"/>
+ </g>
+</svg>

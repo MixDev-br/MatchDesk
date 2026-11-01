@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Downloads and availability
+  - name: Downloads and installation
     url: https://github.com/MixDev-br/MatchDesk/blob/main/DOWNLOADS.md
-    about: New builds are in preparation. Check official availability here.
+    about: Official MatchDesk app downloads, installation guides and updates.
   - name: License, activation and payment support
     url: https://github.com/MixDev-br/MatchDesk/blob/main/SUPPORT.md
     about: Use private support for account and payment questions.
