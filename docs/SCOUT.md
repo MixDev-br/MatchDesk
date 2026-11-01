@@ -4,7 +4,7 @@
 
 ## Português
 
-O Scout mostra as informações disponíveis do adversário em um overlay redesenhado. Funciona no eFootball para Steam e Xbox PC, no Windows 10/11 de 64 bits, sem precisar de Npcap.
+O Scout mostra os dados disponíveis do adversário antes da tela de confirmação da partida do jogo, em um overlay redesenhado. Funciona no eFootball para Steam e Xbox PC, no Windows 10/11 de 64 bits, sem precisar de Npcap.
 
 1. [Baixe pelo canal de clientes](../DOWNLOADS.md#português), extraia todo o ZIP e abra **MatchDeskScout.exe**.
 2. Ative sua licença Scout no PC em que vai jogar.
@@ -20,7 +20,7 @@ Para atualizar o Scout independente, use **Baixar e instalar** e mantenha **Matc
 
 ## English
 
-Scout shows available opponent information in a redesigned overlay. It supports eFootball on Steam and Xbox PC, requires 64-bit Windows 10/11, and does not need Npcap.
+Scout shows available opponent data before the game’s match confirmation screen, in a redesigned overlay. It supports eFootball on Steam and Xbox PC, requires 64-bit Windows 10/11, and does not need Npcap.
 
 1. [Download through the customer channel](../DOWNLOADS.md#english), extract the entire ZIP and open **MatchDeskScout.exe**.
 2. Activate your Scout license on your gaming PC.
@@ -36,7 +36,7 @@ Choose **Download and install** to update standalone Scout. Keep **MatchDeskScou
 
 ## Español
 
-Scout muestra la información disponible del rival en un overlay rediseñado. Compatible con eFootball para Steam y Xbox PC, necesita Windows 10/11 de 64 bits y no requiere Npcap.
+Scout muestra los datos disponibles del rival antes de la pantalla de confirmación del partido, en un overlay rediseñado. Compatible con eFootball para Steam y Xbox PC, necesita Windows 10/11 de 64 bits y no requiere Npcap.
 
 1. [Descarga por el canal de clientes](../DOWNLOADS.md#español), extrae todo el ZIP y abre **MatchDeskScout.exe**.
 2. Activa tu licencia Scout en el PC donde vas a jugar.
