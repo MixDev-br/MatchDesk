@@ -8,6 +8,7 @@ Escolha o aplicativo para o seu aparelho. Os canais abaixo são os oficiais do M
 
 | Aplicativo | Onde baixar | Guia |
 | --- | --- | --- |
+| **Trial 3.0 · Windows** | [Teste grátis de cinco dias](https://github.com/MixDev-br/MatchDesk/releases/download/v3.0.0/MatchDesk-Trial-v3.0.0.zip), sem chave ou cartão | Extraia o ZIP e abra `MatchDeskTrial.exe`. A ativação Scout fica disponível no Pro, com licença própria. |
 | **Pro 3.0 · Windows** | [Releases oficiais](https://github.com/MixDev-br/MatchDesk/releases) — arquivo `MatchDesk-Pro-v3.0.0.zip` | [Começar no Pro](docs/PRO.md#português) |
 | **Scout 3.0 · Windows** | [Página oficial do Scout](https://mixdev-br.github.io/MatchDesk/eft-match/) — download para clientes com licença Scout | [Começar no Scout](docs/SCOUT.md#português) |
 | **Mobile 3.0 · Android** | [Releases oficiais](https://github.com/MixDev-br/MatchDesk/releases) — arquivo `MatchDesk-Mobile-v3.0.0.apk` | [Começar no Mobile](docs/MOBILE.md#português) |
@@ -31,6 +32,7 @@ Choose the app for your device. These are MatchDesk’s official download channe
 
 | App | Download | Guide |
 | --- | --- | --- |
+| **Trial 3.0 · Windows** | [Free five-day trial](https://github.com/MixDev-br/MatchDesk/releases/download/v3.0.0/MatchDesk-Trial-v3.0.0.zip), no key or card | Extract the ZIP and open `MatchDeskTrial.exe`. Scout activation is available in Pro with a separate license. |
 | **Pro 3.0 · Windows** | [Official releases](https://github.com/MixDev-br/MatchDesk/releases) — `MatchDesk-Pro-v3.0.0.zip` | [Get started with Pro](docs/PRO.md#english) |
 | **Scout 3.0 · Windows** | [Official Scout page](https://mixdev-br.github.io/MatchDesk/eft-match/) — download for customers with a Scout license | [Get started with Scout](docs/SCOUT.md#english) |
 | **Mobile 3.0 · Android** | [Official releases](https://github.com/MixDev-br/MatchDesk/releases) — `MatchDesk-Mobile-v3.0.0.apk` | [Get started with Mobile](docs/MOBILE.md#english) |
@@ -54,6 +56,7 @@ Elige la aplicación para tu dispositivo. Estos son los canales oficiales de Mat
 
 | Aplicación | Descarga | Guía |
 | --- | --- | --- |
+| **Trial 3.0 · Windows** | [Prueba gratis de cinco días](https://github.com/MixDev-br/MatchDesk/releases/download/v3.0.0/MatchDesk-Trial-v3.0.0.zip), sin clave ni tarjeta | Extrae el ZIP y abre `MatchDeskTrial.exe`. La activación Scout está disponible en Pro con su propia licencia. |
 | **Pro 3.0 · Windows** | [Releases oficiales](https://github.com/MixDev-br/MatchDesk/releases) — `MatchDesk-Pro-v3.0.0.zip` | [Empezar con Pro](docs/PRO.md#español) |
 | **Scout 3.0 · Windows** | [Página oficial de Scout](https://mixdev-br.github.io/MatchDesk/eft-match/) — descarga para clientes con licencia Scout | [Empezar con Scout](docs/SCOUT.md#español) |
 | **Mobile 3.0 · Android** | [Releases oficiales](https://github.com/MixDev-br/MatchDesk/releases) — `MatchDesk-Mobile-v3.0.0.apk` | [Empezar con Mobile](docs/MOBILE.md#español) |
