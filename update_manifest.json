@@ -2,13 +2,13 @@
   "schema": 1,
   "product": "efootball-toolkit-pro",
   "channel": "stable",
-  "version": "3.0.1",
-  "published_at": "2026-11-17T12:02:37Z",
-  "download_url": "https://matchdesk-updates.matchdesk-clientes.workers.dev/v1/updates/MatchDesk-Pro-v3.0.1-Update-Fix.zip",
+  "version": "3.1.0",
+  "published_at": "2026-11-23T17:51:16Z",
+  "download_url": "https://matchdesk-updates.matchdesk-clientes.workers.dev/v1/updates/MatchDesk-Pro-v3.1.0.zip",
   "package_format": "zip-onedir",
-  "sha256": "99E55C3817CF719A94530CCB460DCD65467FBF0A75AE99A9986CBE261F483A24",
-  "size_bytes": 27243179,
-  "notes": "• Chat during matches with opponents who also use MatchDesk Scout.\n• App performance improvements.\n• Automatic cleanup of temporary files and other files the app no longer uses.\n• Analyze your play style in the My Game tab, with stats for passing, shooting, defending, and dribbling.\n• New interface languages.\n• When you face an opponent again, see the last score and your win, draw, and loss record if previous matches are available. You can also save a private note about the opponent.\n• Pro also shows the ping and region from your last connection with that opponent, when available.\n• When you match with a marked opponent again, choose between an alert or an alert with an attempt to block the connection.",
+  "sha256": "B8B8D4B74DFC4BED88B15284C33A52AC92BDDA489A246190EAAB37732F9F789B",
+  "size_bytes": 27768016,
+  "notes": "• New Community hub: friends, real-time online presence, friend code, profile customization, 1:1 direct chat with quoted replies, quick room sharing (COOP and Friendly), and overlay notifications with soft audio alerts.\n• Opponent Tactical X-Ray: view formation, starters, sub-tactic, and individual instructions before kickoff (Pro + Scout).\n• Official connection verdict and Real Server Ranking by IP: check real input delay (IDELAY), match Hz, freezes, opponent Wi-Fi/Ethernet link, and the best analyzed server IPs per region.\n• Redesigned My Squad tactical board with official eFootball MiniCards, ? cards for empty slots, and scrollable formation tabs.\n• Fixed card animations (Show Time, 2027 Epics, and Big Time), additional player skills, and live club inventory updates.\n• Match chat with manual or automatic acceptance, automatic Steam and Xbox PC nickname switching, and stability fixes for match summaries and Xbox PC.",
   "mandatory": true,
   "android": {
     "version": "3.0.0",
@@ -21,30 +21,32 @@
     "mandatory": true,
     "published_at": "2026-11-17T12:02:37Z"
   },
-  "signature": "Mik8SDCsye+/Pn8m06unqX0ytnfSbn8ykV4HyJ5HE9KhPdPVpR2rnYMxJZIdoz0uoDoymPIedp3xQMUFLyzeBQ==",
+  "signature": "SXgiFAsdxKUDa97vlASLoVwXXZkJFtoNH7KzJEz6wTDnEvEDs9tm40xQACqvf7Qir/YMHJAKye0BMAwL4QPsDg==",
   "eft_match": {
     "product": "eft-match",
     "platform": "windows-x64",
-    "version": "3.0.1",
-    "build_number": 14,
+    "version": "3.1.0",
+    "build_number": 15,
     "download_url": "https://eft-match-downloads.arley-efootball-toolkit.workers.dev/v1/eft-match/EFT-MATCH.zip",
     "package_format": "zip-onedir",
-    "sha256": "E25311C2E76CE0F3F7012A2A8227A6ADC3186A40066B3A526ECF515E959D59BD",
-    "size_bytes": 16519535,
-    "notes": "• Chat during matches with opponents who also use MatchDesk Scout.\n• App performance improvements.\n• Automatic cleanup of temporary files and other files the app no longer uses.\n• New interface languages.\n• When you face an opponent again, see the last score and your win, draw, and loss record if previous matches are available. You can also save a private note about the opponent.",
+    "sha256": "D003C509EC1E4878E4E86309B9767D13EADA6BEF7AF506A22C0D9E3C3715F65E",
+    "size_bytes": 16438586,
+    "notes": "IMPORTANT: Version 3.1.0 introduces the new Community hub (Friends, Online Presence, and Direct Chat), automatic Steam and Xbox PC nickname switching, match chat with manual acceptance, and the new official MatchDesk Scout installer.\n\nTo update, visit the Customer Portal at matchdesk.com.br, download the new MatchDesk Scout 3.1.0 installer, and run it normally.\n\nYour license, nicknames, and notes stay saved automatically. Starting with this version, future updates will run 100% automatically inside the app.",
     "mandatory": true,
-    "published_at": "2026-11-14T23:25:16Z"
+    "notes_en": "",
+    "published_at": "2026-11-23T17:51:16.616140Z"
   },
   "eft_match_module": {
     "product": "eft-match-module",
     "platform": "windows-x64",
     "abi": 3,
     "version": "3.0.0",
-    "minimum_toolkit_version": "3.0.1",
+    "minimum_toolkit_version": "3.1.0",
     "package_format": "dll",
     "download_url": "https://eft-match-modules.arley-efootball-toolkit.workers.dev/v1/eft-match/module",
     "download_auth": "eft-license-v1",
-    "sha256": "e490df9fafa085d1ffe53cc6b6eae0be748dd5b1d32027eedb2faab4a8df3dca",
-    "size_bytes": 911568
-  }
+    "sha256": "3409016d62cff76890308be601cadc5dd48ccce7064680fe79141559b98cd932",
+    "size_bytes": 911360
+  },
+  "notes_en": ""
 }
