@@ -2,14 +2,14 @@
   "schema": 1,
   "product": "efootball-toolkit-pro",
   "channel": "stable",
-  "version": "3.1.0",
-  "published_at": "2026-11-23T17:51:16Z",
-  "download_url": "https://matchdesk-updates.matchdesk-clientes.workers.dev/v1/updates/MatchDesk-Pro-v3.1.0.zip",
+  "version": "3.1.1",
+  "published_at": "2026-11-27T20:53:05Z",
+  "download_url": "https://matchdesk-updates.matchdesk-clientes.workers.dev/v1/updates/MatchDesk-Pro-v3.1.1.zip",
   "package_format": "zip-onedir",
-  "sha256": "B8B8D4B74DFC4BED88B15284C33A52AC92BDDA489A246190EAAB37732F9F789B",
-  "size_bytes": 27768016,
-  "notes": "• New Community hub: friends, real-time online presence, friend code, profile customization, 1:1 direct chat with quoted replies, quick room sharing (COOP and Friendly), and overlay notifications with soft audio alerts.\n• Opponent Tactical X-Ray: view formation, starters, sub-tactic, and individual instructions before kickoff (Pro + Scout).\n• Official connection verdict and Real Server Ranking by IP: check real input delay (IDELAY), match Hz, freezes, opponent Wi-Fi/Ethernet link, and the best analyzed server IPs per region.\n• Redesigned My Squad tactical board with official eFootball MiniCards, ? cards for empty slots, and scrollable formation tabs.\n• Fixed card animations (Show Time, 2027 Epics, and Big Time), additional player skills, and live club inventory updates.\n• Match chat with manual or automatic acceptance, automatic Steam and Xbox PC nickname switching, and stability fixes for match summaries and Xbox PC.",
-  "mandatory": true,
+  "sha256": "0AC5913909B55BEB9B2ABEE32F875FADC9EA1CBB096A3D95AA8F5D11C9283E5B",
+  "size_bytes": 27975531,
+  "notes": "Comunidade e Chat:\n• Novo topo compacto na Comunidade com prévia ao vivo do seu card e atalho de engrenagem para personalizar o perfil.\n• Novas animações visuais selecionáveis no card de perfil para quem possui o módulo Scout (Pulso Neon, Holográfico, Radar Scout e Aurora Astral), além de insígnias oficiais atualizadas.\n• Tradução rápida de mensagens no chat direto e de partida para o idioma do seu app.\n• Suporte ao teste grátis de 3 dias do módulo Scout com avisos integrados no aplicativo.\n\nElenco, Controle e Otimização:\n• Cartas animadas (Show Time, Épicos e Big Time) sincronizadas em 60 FPS suaves, seguindo o ritmo real exibido no jogo.\n• Prancheta do Meu Elenco expandida para até 64 formações salvas, com rolagem horizontal fluida e seletor rápido em grade.\n• Novo motor nativo de leitura de polling para controles de alta frequência (1000 Hz até 8000 Hz) em XInput e GameInput, sem consumo extra de CPU em repouso.\n• Central de Otimização compatível com otimizadores externos: preserva planos de energia alterados por terceiros e permite limpar avisos pendentes em 1 clique.\n\nGeral:\n• Nova tela de atualização com visual renovado e botão direto de suporte oficial no Telegram.\n• Ajustes de estabilidade em alertas sonoros de partida, monitoramento de FPS e traduções nos 13 idiomas.",
+  "mandatory": false,
   "android": {
     "version": "3.0.0",
     "build_number": 21,
@@ -21,20 +21,20 @@
     "mandatory": true,
     "published_at": "2026-11-17T12:02:37Z"
   },
-  "signature": "SXgiFAsdxKUDa97vlASLoVwXXZkJFtoNH7KzJEz6wTDnEvEDs9tm40xQACqvf7Qir/YMHJAKye0BMAwL4QPsDg==",
+  "signature": "iA+mb0w8MTQk6JTX3dxGwkeXWX0x60dKlBPamgHoHFjmmQVqTBD4ubxOShKaMeNS6HbvazW7SIOUhLiAsyeuCA==",
   "eft_match": {
     "product": "eft-match",
     "platform": "windows-x64",
-    "version": "3.1.0",
-    "build_number": 15,
+    "version": "3.1.1",
+    "build_number": 16,
     "download_url": "https://eft-match-downloads.arley-efootball-toolkit.workers.dev/v1/eft-match/EFT-MATCH.zip",
     "package_format": "zip-onedir",
-    "sha256": "D003C509EC1E4878E4E86309B9767D13EADA6BEF7AF506A22C0D9E3C3715F65E",
-    "size_bytes": 16438586,
-    "notes": "IMPORTANT: Version 3.1.0 introduces the new Community hub (Friends, Online Presence, and Direct Chat), automatic Steam and Xbox PC nickname switching, match chat with manual acceptance, and the new official MatchDesk Scout installer.\n\nTo update, visit the Customer Portal at matchdesk.com.br, download the new MatchDesk Scout 3.1.0 installer, and run it normally.\n\nYour license, nicknames, and notes stay saved automatically. Starting with this version, future updates will run 100% automatically inside the app.",
-    "mandatory": true,
-    "notes_en": "",
-    "published_at": "2026-11-23T17:51:16.616140Z"
+    "sha256": "D0F21591652DFE3EA85D8B95042BB4CA664999D5B3728BBCEA7F00584FC8D4BD",
+    "size_bytes": 16596741,
+    "notes": "• Novo topo compacto na Comunidade com prévia ao vivo do seu card e botão de engrenagem para abrir o painel de personalização.\n• Novas animações selecionáveis no card de perfil (Pulso Neon, Holográfico, Radar Scout e Aurora Astral) e insígnias oficiais atualizadas.\n• Tradução rápida de mensagens no chat direto e durante a partida para o idioma do seu aplicativo.\n• Suporte ao período de teste grátis de 3 dias com avisos integrados e atalho rápido para a comunidade.\n• Nova tela de atualização com visual renovado e botão direto de suporte oficial no Telegram.\n• Melhorias de estabilidade nos alertas sonoros e nas traduções nos 13 idiomas.",
+    "mandatory": false,
+    "notes_en": "• New compact Community header with a live preview of your card and a gear button to open profile customization.\n• New selectable profile card animations (Neon Pulse, Holographic, Scout Radar, and Astral Aurora) and updated official role badges.\n• Instant message translation in direct chat and during matches to your app language.\n• Support for the 3-day free trial period with built-in notifications and a quick shortcut to the community.\n• Redesigned update screen with a direct official Telegram support button.\n• Stability improvements in sound alerts and translations across all 13 languages.",
+    "published_at": "2026-11-27T20:53:06.822616Z"
   },
   "eft_match_module": {
     "product": "eft-match-module",
@@ -45,8 +45,8 @@
     "package_format": "dll",
     "download_url": "https://eft-match-modules.arley-efootball-toolkit.workers.dev/v1/eft-match/module",
     "download_auth": "eft-license-v1",
-    "sha256": "3409016d62cff76890308be601cadc5dd48ccce7064680fe79141559b98cd932",
-    "size_bytes": 911360
+    "sha256": "3d14cb1f60f61741d25885cc07d342ff319bcbe063d40c382c5470afa33358b9",
+    "size_bytes": 911872
   },
-  "notes_en": ""
+  "notes_en": "Community and Chat:\n• New compact Community header with a live preview of your card and a gear shortcut to customize your profile.\n• New selectable card animations for Scout module users (Neon Pulse, Holographic, Scout Radar, and Astral Aurora), plus updated official role badges.\n• Instant message translation in direct chat and match chat to your app language.\n• Support for the 3-day free Scout module trial with built-in notifications.\n\nSquad, Controller, and Optimization:\n• Animated special cards (Show Time, Epics, and Big Time) synchronized to smooth 60 FPS, matching in-game playback speed.\n• My Squad tactical board expanded to up to 64 saved formations, with smooth horizontal scrolling and a quick grid selector.\n• New native polling benchmark engine for high-rate controllers (1000 Hz up to 8000 Hz) in XInput and GameInput, with zero extra idle CPU usage.\n• PC Optimization Center compatible with external optimizers: preserves third-party power plans and lets you clear pending recovery notices in 1 click.\n\nGeneral:\n• Redesigned update screen with a direct official Telegram support button.\n• Stability improvements in match sound alerts, FPS monitoring, and translations across all 13 languages."
 }
